@@ -1,0 +1,50 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a href="/" class="navbar-brand">
+            <i class="fas fa-code me-2"></i>
+            Phien hoc boostrap!
+        </a>
+        <!--  
+        data-bs-target: truyền tới
+        data-bs-toggle: trải xuống
+        aria-controls: điều khiển nút nhấn
+            -->
+        <button class="navbar-toggler" data-bs-target="#dropdownlist" data-bs-toggle="collapse" aria-controls="dropdownlist" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--    
+        magrin top (mt) khoảng cách bên ngoài so với element khác
+        pading top (pt) khoảng cách các element bên trong
+        navbar-collapse cân chỉnh các element bằng nhau
+        -->
+        <div id="dropdownlist" class="collapse navbar-collapse text-end">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                    <a href="/" class="nav-link">
+                        <i class="fas fa-home me-i"></i>
+                        HOME
+                    </a>
+                </li>
+                <li class="nav-item active"></li>
+                    <a href="/add" class="nav-link">
+                        <i class="fas fa-user-plus me-1"></i>
+                        ADD USER
+                    </a>
+                </li>
+                <li class="nav-item active"></li>
+                    <a href="#" class="nav-link">
+                        <i class="fas fa-globe me-1"></i>
+                        ABOUT US
+                    </a>
+                </li>
+                <li class="nav-item active"></li>
+                    <a href="#" class="nav-link">
+                        <i class="fa-solid fa-file-contract"></i>
+                        CONTRACT
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
